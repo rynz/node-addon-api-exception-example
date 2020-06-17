@@ -1,0 +1,29 @@
+{
+  "name": "@rynz/addon-api-exception-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/rwar.js",
+  "scripts": {
+    "test": "jest --colors",
+    "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
+    "lint": "eslint lib",
+    "format": "prettier --write \"**/*.+(js|json|md|ts|vue|yml)\"",
+    "validate": "npm run lint && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rynz/node-addon-api-exception-example.git"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "node-addon-api": "*"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

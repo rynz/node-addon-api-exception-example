@@ -1,0 +1,10 @@
+.vscode
+
+bazel-bin
+bazel-node-token
+bazel-out
+bazel-testlogs
+
+build
+coverage
+node_modules
